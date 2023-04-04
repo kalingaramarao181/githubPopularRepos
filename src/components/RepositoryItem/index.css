@@ -1,0 +1,31 @@
+.each-repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  margin: 10px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12px;
+  background-color: #f8f8ff;
+  list-style: none;
+}
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 8px;
+  color: #e73959;
+}
+.image-style {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+.logo-cont {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 100px;
+}

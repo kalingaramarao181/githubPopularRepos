@@ -1,0 +1,43 @@
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular {
+  font-family: Lobster;
+  font-size: 55px;
+}
+
+.buttons-cont {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+.button-style {
+  height: 30px;
+  width: auto;
+  border-radius: 10px;
+  background-color: transparent;
+  border-style: none;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 510;
+  font-size: 16px;
+}
+.active-button {
+  height: 30px;
+  width: auto;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: #0284c7;
+  font-family: 'Roboto';
+  color: #0284c7;
+  font-weight: 510;
+  font-size: 16px;
+}
+.all-repos-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}

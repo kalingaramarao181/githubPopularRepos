@@ -1,0 +1,19 @@
+.list-item {
+  margin-right: 15px;
+}
+.item-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.selected-button {
+  border: solid #0284c7 2px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: #0284c7;
+}
